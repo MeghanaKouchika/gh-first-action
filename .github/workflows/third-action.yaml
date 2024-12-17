@@ -1,5 +1,5 @@
 name: Third Worklow
-on: workflow_dispatch
+on: push
 jobs: 
   firstJob:
     runs-on: ubuntu-latest
