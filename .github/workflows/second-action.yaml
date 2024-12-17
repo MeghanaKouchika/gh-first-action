@@ -1,0 +1,12 @@
+name: SecondAction
+on: workflow_dispatch
+jobs:
+  FirstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: FirstStep
+        run: |
+          echo "Trying multi-line shell command"
+          echo "Did it work"
+          echo "Yay!!! Works"
+          
